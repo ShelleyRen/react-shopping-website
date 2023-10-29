@@ -1,0 +1,30 @@
+{
+  "name": "react-shopping-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server",
+    "data-import": "node backend/seeder",
+    "data-destory": "node backend/seeder -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "bootstrap-input-spinner": "^3.1.14",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "react-bootstrap-input-spinner": "^1.0.2",
+    "react-tiny-link": "^3.6.1"
+  }
+}
